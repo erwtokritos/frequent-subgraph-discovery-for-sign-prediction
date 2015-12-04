@@ -13,6 +13,7 @@ The algorithm is divided into 3 steps and each step is implemented by the corres
 
 
 NOTES: 
+
 1. A sample signed network of the Wikipedia elections is given under the datasets folder. 
 
 2. There is a dependency from the [Neo4j](http://neo4j.com/) (v1.6) graph database. The required jars are packaged under the 'deps' folder for convenience.
