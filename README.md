@@ -13,10 +13,10 @@ The algorithm is divided into 3 steps and each step is implemented by the corres
 
 
 NOTES: 
-#1 A sample signed network of the Wikipedia elections is given under the datasets folder. 
+1. A sample signed network of the Wikipedia elections is given under the datasets folder. 
 
-#2 There is a dependency from the [Neo4j](http://neo4j.com/) (v1.6) graph database. The required jars are packaged under the 'deps' folder for convenience.
+2. There is a dependency from the [Neo4j](http://neo4j.com/) (v1.6) graph database. The required jars are packaged under the 'deps' folder for convenience.
 
-#3 If you find this code useful I wouldn't mind if you cited my paper :P 
+3. If you find this code useful I wouldn't mind if you cited my paper :P 
 
 Athanasios Papaoikonomou, Magdalini Kardara, Konstantinos Tserpes, Theodora A. Varvarigou, "Predicting Edge Signs in Social Networks Using Frequent Subgraph Discovery", IEEE Internet Computing, vol.18, no. 5, pp. 36-43, Sept.-Oct. 2014, doi:10.1109/MIC.2014.82 
