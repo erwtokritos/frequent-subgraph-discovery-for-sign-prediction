@@ -9,7 +9,7 @@ The algorithm is divided into 3 steps and each step is implemented by the corres
 
 2nd step: Execute the 'graph.functions.ExploreNetwork'. It will operate on the network of the first step.  Here, you have to specify the threshold for the common neighbours threshold (default 25) and the size of the subgraph(3 or 4)
 
-3rd step: Execute the 'graph.functions.ExploreMinSupport'. This class will identify the common subgraphs for the given minimum support ('min_support' variable) and it will produce the final output. The format of this output file is <sign>,<frequency of graph 1>,<frequency of graph 2>,... . and it should be fed to an SVM classifier for the classification task. I used [R](https://www.r-project.org/) and the [LibLinear package](https://cran.r-project.org/web/packages/LiblineaR/index.html) for this purpose.
+3rd step: Execute the 'graph.functions.ExploreMinSupport'. This class will identify the common subgraphs for the given minimum support ('min_support' variable) and it will produce the final output. The format of this output file is 'sign','frequency of graph 1','frequency of graph 2',... . and it should be fed to an SVM classifier for the classification task. I used [R](https://www.r-project.org/) and the [LibLinear package](https://cran.r-project.org/web/packages/LiblineaR/index.html) for this purpose.
 
 
 NOTES: 
